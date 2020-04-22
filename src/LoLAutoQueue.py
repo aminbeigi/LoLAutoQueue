@@ -10,8 +10,8 @@ All click functions assume a screen resoultion of 2560x1440.
 Directory needs to be added line 13 and 14.
 """
 
-templates = ""
-capture = ""
+templates = "C:\\projects\\Python\\LoLAutoQueue\\buttons\\button{}.png"
+capture = "C:\\projects\\Python\\LoLAutoQueue\\capture.png"
 
 def get_coords():
 	x,y = win32api.GetCursorPos()
@@ -34,7 +34,6 @@ def click(x,y):
 	print("Clicking on accept match button at ({}, {})".format(x, y))
 
 def auto_queue():
-	time.sleep(1)
 	screen_grab()
 
 	# reading capture.png
@@ -68,6 +67,7 @@ def auto_queue():
 def main():
 	while True:
 		auto_queue() 
+		time.sleep(1)
 
 if __name__ == '__main__':
 	main()
