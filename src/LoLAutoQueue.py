@@ -59,9 +59,6 @@ def auto_queue():
 			x = pt[0] 
 			y = pt[1] -- 40 # adjust for openCV border
 			click(x,y)
-			cv2.imshow("image", capture_img)
-			cv2.waitKey(0)
-			cv2.destroyAllWindows()
 			print("Successfully matched template. \nAccepting queue.")
 			exit()
 		except UnboundLocalError:
