@@ -10,8 +10,8 @@ All click functions assume a screen resoultion of 2560x1440.
 Directory needs to be added line 13 and 14.
 """
 
-templates = "C:\\button{}.png"
-capture = "C:\\capture.png"
+templates = "...\\button{}.png"
+capture = "...\\capture.png"
 
 def get_coords():
 	x,y = win32api.GetCursorPos()
