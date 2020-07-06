@@ -51,7 +51,7 @@ def auto_queue():
 			cv2.rectangle(capture_img, pt, (pt[0] + w, pt[1] + h), (0, 0, 255), 2)
 		try:
 			x = pt[0] 
-			y = pt[1] -- 40 # adjust for openCV border
+			y = pt[1] + 40 # adjust for openCV border
 			click(x,y)
 			print("Successfully matched template. \nAccepting queue.")
 			exit()
