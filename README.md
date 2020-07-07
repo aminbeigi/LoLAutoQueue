@@ -1,4 +1,5 @@
 # LoLAutoQueue
+## Description
 A Python-based program that takes screenshots of the desktop and attempts to locate button.png image via openCV's multi-template matching.  
 Working as of League of Legends patch 10.13.
 
