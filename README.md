@@ -14,4 +14,4 @@ Working as of League of Legends patch 10.13.
 Contributions are always welcome!  
 Just make a [pull request](../../pulls).
 ## License
-Free to use.
+MIT License
