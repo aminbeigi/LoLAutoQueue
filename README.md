@@ -13,5 +13,5 @@ Working as of League of Legends patch 10.13.
 ## Contributions
 Contributions are always welcome!  
 Just make a [pull request](../../pulls).
-## License
+## Licence
 MIT License
