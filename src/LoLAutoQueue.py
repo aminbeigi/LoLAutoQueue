@@ -26,7 +26,7 @@ def click(x,y):
 	win32api.SetCursorPos((x,y))
 	win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,x,y,0,0)
 	win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,x,y,0,0)
-	print("Clicking on accept match button at ({}, {})".format(x, y))
+	print(f"Clicking on accept match button at ({x}, {y}).")
 
 def auto_queue():
 	screen_grab()
@@ -56,7 +56,7 @@ def auto_queue():
 			print("Successfully matched template. \nAccepting queue.")
 			exit()
 		except UnboundLocalError:
-			print("Couldn't locate and match button{}.png...".format(i))
+			print(f"Couldn't locate and match button{i}.png...")
 			pass   
 
 def main():
