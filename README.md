@@ -10,8 +10,10 @@ Working as of League of Legends patch 10.13.
 * League of Legends account
 * Python 3.6+
 * Install relevant packages (see LoLAutoQueue.py)
+
 ## Contributions
 Contributions are always welcome!  
 Just make a [pull request](../../pulls).
+
 ## Licence
 MIT License
